@@ -22,21 +22,9 @@ $("document").ready(function () {
     $("#github").click(function () {
         window.location="https://github.com/Matt110110";
     });
+    $("#facebook").addClass("w3-text-blue");
+    $("#twitter").addClass("w3-text-indigo");
+    $("#insta").addClass("w3-text-pink");
+    $("#linkedIn").addClass("w3-text-aqua");
+    $("#WE").hide();
 });
-/*
-document.getElementById("linkedIn").addEventListener("click", function () {
-   window.location="https://www.linkedin.com/in/matruprasad-chand-137a35133/"; 
-});
-document.getElementById("twitter").addEventListener("click", function () {
-    window.location="https://twitter.com/Matt110110";
-});
-document.getElementById("facebook").addEventListener("click", function () {
-    window.location="https://www.facebook.com/Matt110110";
-});
-document.getElementById("insta").addEventListener("click", function () {
-    window.location="https://www.instagram.com/matt110110/";
-});
-document.getElementById("github").addEventListener("click", function () {
-    window.location="https://github.com/Matt110110";
-});
-*/
